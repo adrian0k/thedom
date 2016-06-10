@@ -7,14 +7,41 @@
         </head>
         <body>
             <div>
-                <h1>Current Image</h1>
-                <img id="main_image" src="images/classProject-1.jpg" alt="class project">
-                <p><button id="prev"><</button>
-                   <button id="next">></button>
+                <h1>Image Gallery</h1>
+                <ul>
+                  <li class="selected"><img title="classProject-1" src="images/classProject-thumbnail-1.jpg" alt="thumbnual 1"></li>
+                  <li><img title="classProject-2" src="images/classProject-thumbnail-2.jpg" alt="thumbnual 1"></li>
+                  <li><img title="classProject-3" src="images/classProject-thumbnail-3.jpg" alt="thumbnual 1"></li>
+                  <li><img title="classProject-4" src="images/classProject-thumbnail-4.jpg" alt="thumbnual 1"></li>
+                  <li><img title="classProject-5" src="images/classProject-thumbnail-5.jpg" alt="thumbnual 1"></li>
+                </ul>
+                <figure id="classProject-1" class="show">
+                  <img src="images/classProject-1.jpg" alt="class project">
+                  <figcaption>Class Project 1</figcaption>
+                </figure>
+                <figure id="classProject-2" class="hide">
+                  <img src="images/classProject-2.jpg" alt="class project">
+                  <figcaption>Class Project 2</figcaption>
+                </figure>
+                <figure id="classProject-3" class="hide">
+                  <img src="images/classProject-3.jpg" alt="class project">
+                  <figcaption>Class Project 3</figcaption>
+                </figure>
+                <figure id="classProject-4" class="hide">
+                  <img src="images/classProject-4.jpg" alt="class project">
+                  <figcaption>Class Project 4</figcaption>
+                </figure>
+                <figure id="classProject-5" class="hide">
+                  <img src="images/classProject-5.jpg" alt="class project">
+                  <figcaption>Class Project 5</figcaption>
+                </figure>
+                <p>
+                  <button id="prev"><</button>
+                  <button id="next">></button>
                 </p>
-
-
             </div>
+
+
             <script src="script.js"></script>
         </body>
         </html>
